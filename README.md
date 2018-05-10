@@ -15,6 +15,6 @@ To create an interacive chart with D3.js on the web that display correlations be
 Click [here](https://nelsonxw.github.io/interactive-animated-charts/) to see the result.
 
 ### Techniques used:
-+ + Use **HTML**, **Bootstrap** and **CSS** to build index page and D3 chart page.
++ Use **HTML**, **Bootstrap** and **CSS** to build index page and D3 chart page.
 + Use **JavaScript** and **D3.js** to build interactive charts
 + Use **GitHub** to serve the web site
