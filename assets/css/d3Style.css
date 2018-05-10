@@ -1,0 +1,40 @@
+/*styles for tooltip*/
+ .tooltip {
+  line-height: 1;
+  padding: 6px;
+  background: black;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: center
+}
+
+
+/*styles to make the labels responsive to screen sizes*/
+@media screen and (min-width: 576px) { 
+  .inactive {
+    fill:gray;
+    cursor: pointer;
+    font-size: 16px
+  }
+
+  .active {
+    fill:black;
+    cursor: pointer;
+    font-size: 16px
+  }
+}
+
+@media screen and (max-width: 576px) { 
+  .inactive {
+    fill:gray;
+    cursor: pointer;
+    font-size: 10px
+  }
+
+  .active {
+    fill:black;
+    cursor: pointer;
+    font-size: 10px
+  }
+}
